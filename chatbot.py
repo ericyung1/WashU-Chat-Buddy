@@ -50,7 +50,7 @@ import time
 # seafoam = Seafoam()
 
 import os
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'XXXXXX'
 
 from langchain.chat_models import ChatOpenAI
 llm = ChatOpenAI(temperature=0,model_name="gpt-4")
@@ -154,4 +154,4 @@ with gr.Blocks(css=css) as demo:
     clear.click(lambda: None, None, chatbot, queue=False)
 
 if __name__ == "__main__":
-    demo.launch(debug=True)
+    demo.launch(debug=True, share=True)
