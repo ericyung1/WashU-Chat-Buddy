@@ -1,0 +1,23 @@
+The Second Major in Computer Science
+Bulletin›Undergraduate›Engineering›Fields of Study›Computer Science & Engineering›Second Major in Computer Science
+The second major provides an opportunity to combine computer science with another degree program. A second major in computer science can expand a student's career options and enable interdisciplinary study in areas such as cognitive science, computational biology, chemistry, physics, philosophy and linguistics. The second major is also well suited for students planning careers in medicine, law, business, architecture and fine arts. The requirements are as follows. There are no additional distribution or unit requirements for the second major.
+
+Computer Science Core Requirements*
+Course List
+Code	Title	Units
+CSE 131	Introduction to Computer Science	3
+CSE 132	Introduction to Computer Engineering	3
+CSE 240	Logic and Discrete Mathematics	3
+or Math 310	Foundations for Higher Mathematics
+CSE 247	Data Structures and Algorithms	3
+CSE 332S	Object-Oriented Software Development Laboratory	3
+CSE 347	Analysis of Algorithms	3
+Total Units	18
+*
+Each of these core courses must be passed with a grade of C- or better.
+
+Computer Science Technical Elective Requirements
+At least 24 additional units in computer science or computer science-related courses with an S, M, T or A suffix must be completed, at least one of which must be a systems (S) course and at least one of which must be a machine (M) or application (A) course. In satisfying these technical electives, up to 6 units may be taken outside the CSE department. Independent work (CSE 400E, CSE 497, CSE 498, CSE 499) is possible by finding a suitable faculty mentor for the work. Such work can be classified as S, M, T or A with approval. Some or all of the 6 units may also be satisfied by taking courses in other departments, including those outside of the McKelvey School of Engineering. Students can seek approval for courses by contacting the associate chair.
+
+Math Requirement
+Students must take calculus (Math 131) and probability (ESE 326, Math 3200, or the sequence DAT 120-DAT 121).

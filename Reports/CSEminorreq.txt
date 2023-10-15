@@ -1,0 +1,92 @@
+Minor in Computer Science
+If a student's goal is a basic foundation in computer science for application to another field, but he or she is not planning a career as a practicing computer scientist, the minor in computer science is a good choice. The minor consists of five CSE courses, including two core courses and three electives. The core courses provide an introduction to computer science concepts and problem-solving techniques. The electives offer flexibility to integrate computer science studies with a major area.
+
+Units Required: 15
+
+Required Courses
+CSE 131	Introduction to Computer Science	3 units
+CSE 247	Data Structures and Algorithms	3 units
+Total Units		6
+Elective Courses (9 units)
+Any three CSE courses with a T, S, M, or A suffix.
+
+(Students may also choose from CSE 132, CSE 240, and CSE 347.)
+9 Total Units
+
+The Minor in Computer Science requires 2 core courses (CSE 131 and CSE 247) and 3 elective courses. Approved transfer courses and proficiency credit are allowed to replace CSE 131. Students who have approved transfer credit or proficiency credit for CSE 247 will not be required to take it at WashU, however, some other WashU course must be designated in consultation with the CSE advisor to replace that course. For the 3 elective courses, at least 2 of the 3 courses must completed at WashU within the CSE department. Any elective course taken outside of the WashU CSE department must be approved by the student's CSE advisor and associate chair.
+
+Additional Information
+All courses used for the computer science minor must be taken for a grade, and the student must earn a C- or better. Should the student decide to go further in the field, all courses in the computer science minor can be used toward a second major in computer science or a degree in computer science or computer engineering.
+
+Minor in Bioinformatics
+Mindful of the emerging opportunities at the interface of biology and computer science, the Department of Biology and Department of Computer Science & Engineering have fashioned the minor in bioinformatics that serves students from both departments as well as other students from the natural sciences and engineering with an interest in this field.
+
+Units Required: 23 to 24 units
+
+Required Courses
+Biol 2960	Principles of Biology I	4 units
+Biol 2970	Principles of Biology II	4 units
+CSE 131	Introduction to Computer Science	3 units
+CSE 247	Data Structures and Algorithms	3 units
+ESE 326
+or Math 2200
+or Math 3200
+or Math 3211
+or DAT 120 & DAT 121	Probability and Statistics for Engineering
+Elementary Probability and Statistics
+Elementary to Intermediate Statistics and Data Analysis
+Statistics for Data Science I
+Managerial Statistics I & II	3 units
+Total Units		17
+Advanced Biology Electives (choose one)
+Biol 3492	Laboratory Experiments with Eukaryotic Microbes	3 units
+Biol 4181	Population Genetics	3 units
+Biol 4220	Practical Bioinformatics	4 units
+Biol 4342	Research Explorations in Genomics	4 units
+Biol 437	Laboratory on DNA Manipulation	4 units
+Biol 4525	Structural Bioinformatics of Proteins (Writing Intensive)	4 units
+Total Units		3-4
+CSE Electives (choose one)
+CSE 514A	Data Mining	3 units
+CSE 584A
+or Biol 5504	Algorithms for Biosequence Comparison
+Algorithms for Biosequence Comparison	3 units
+CSE 587A	Algorithms for Computational Biology	3 units
+Total Units		3
+Additional Information
+It is anticipated that for those students majoring in biology or CSE, some portion of the introductory sequence will overlap with courses required for the major, and these courses will be applicable to both the major and the minor. Upper-level courses in Biology and CSE used to fulfill the minor may not be used to fulfill another major or minor in Arts & Sciences. A minimum grade of C- is required for all courses to count toward the minor.
+
+Minor in Human-Computer Interaction
+The HCI minor is intended for students who are interested in the design of user-centered interactive technologies and those desiring jobs that include user interface creation, product design, UX/UI design, app development, virtual and augmented realities, and so on. This minor should appeal to students in the College of Art — particularly designers and computationally intrigued artists — who are interested in gaining a more in-depth knowledge of back-end development skills. It will also be of interest to engineering students looking for more experience with aesthetics and front-end design skills. In addition to being useful for these primary audiences, this minor allows students from other departments on campus to support their studies with a clear track in a hybrid pursuit of design and programming.
+
+Units Required: 18 units
+
+Students must complete two pillar courses, one integration course and three approved electives. Courses listed below are considered approved elective offerings between the Sam Fox School and the McKelvey School of Engineering.
+
+Pillar Courses (6 units):
+
+Course List
+Code	Title	Units
+ART	Visual Principles for the Screen	3
+CSE 131	Introduction to Computer Science	3Integration Courses (3 units):
+Course List
+Code	Title	Units
+ART 236A	Interaction Design: Understanding Health and Well-Being	3
+CSE 256A	Introduction to Human-Centered Design	3Electives (9 units, with at least one course each from CSE and Art/Design):
+Course List
+Code	Title	Units
+ART 332J	UX Research Methods for Design	3
+ART 336B	Advanced Interaction Design	3
+ART 336P	Conditional Design	3
+ART 338I	Communication Design: Interaction Foundations	3
+ART 432A	Interaction Design: User-Centered Applications	3
+ART 440T	Advance Visual Principles for the Screen	3
+CSE 204A	Web Development	3
+CSE 330S	Rapid Prototype Development and Creative Programming	3
+CSE 438S	Mobile Application Development	3
+CSE 450A	Video Game Programming	3
+CSE 457A	Introduction to Visualization	3
+CSE 556A	Human-Computer Interaction Methods	3
+CSE 557A	Advanced Visualization	3
+PNP 200	Introduction to Cognitive Science	3
+Psych 360	Cognitive Psychology	3
