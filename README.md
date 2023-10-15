@@ -13,7 +13,8 @@ Reports Folder:<br>
 All forms of data used to load into Langchain DocumentLoader
 
 Webscraper:<br>
--Source Code for pdf to txt converter
--Source Code for student events
+1) Source Code for pdf to txt converter
+2) Source Code for student events
+3) Source Code for scraping course descriptions from WUSTL course listing
 
 chatbot.py - main Gradio application used to create chatbot, load frontend/backend, and create local host
