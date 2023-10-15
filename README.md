@@ -9,10 +9,11 @@ How to run on your local environment
 Purpose:
 Create a chatbot catered to help WashU students schedule classes. Trained with data that includes WUGO events, course listings, etc.
 
-Reports Folder:
+Reports Folder:<br>
 All forms of data used to load into Langchain DocumentLoader
 
-Webscraper:
-Source Code for pdf to txt converter
+Webscraper:<br>
+-Source Code for pdf to txt converter
+-Source Code for student events
 
 chatbot.py - main Gradio application used to create chatbot, load frontend/backend, and create local host
