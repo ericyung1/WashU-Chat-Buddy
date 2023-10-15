@@ -68,6 +68,14 @@ csv_loader = CSVLoader(
         "fieldnames": ["Event Title", "Organization", "Location", "Date/Time"],
     },
 )
+csv_loader1 = CSVLoader(
+    file_path="./Reports/webstac_ARTSCI_FINAL.csv",
+    csv_args={
+        "delimiter": ",",
+        "quotechar": '"',
+        "fieldnames": ["Course ID", "Course Title", "Course Credits", "Section", "Day", "Time", "Building", "Instructor"],
+    }
+)
 
 loaders = [pdf_loader, txt_loader, csv_loader]
 documents = []
