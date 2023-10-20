@@ -1,4 +1,4 @@
-# HackWashU2023
+# WashU Chat Buddy
 
 How to run on your local environment
 1) cd into project path
