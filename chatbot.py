@@ -58,10 +58,12 @@ llm = ChatOpenAI(temperature=0,model_name="gpt-4")
 from langchain.document_loaders import DirectoryLoader
 from langchain.document_loaders.csv_loader import CSVLoader
 
-pdf_loader = DirectoryLoader('./Reports/', glob="**/*.pdf")
-txt_loader = DirectoryLoader('./Reports/', glob="**/*.txt")
+reports_dir = 'C:\\Users\\ericy\\Desktop\\WashUChatBuddy\\WashU-Chat-Buddy\\Reports'
+
+pdf_loader = DirectoryLoader(reports_dir, glob="**/*.pdf")
+txt_loader = DirectoryLoader(reports_dir, glob="**/*.txt")
 csv_loader = CSVLoader(
-    file_path="./Reports/student_events.csv",
+    file_path=reports_dir + "\\student_events.csv",
     csv_args={
         "delimiter": ",",
         "quotechar": '"',
@@ -124,8 +126,10 @@ css = """
 }
 """
 
+demo = gr.Blocks(css=css)
+
 # Define chat interface
-with gr.Blocks(css=css) as demo:
+with demo:
     chatbot = gr.Chatbot(elem_id="warning", elem_classes="feedback")
     msg = gr.Textbox(label="How may I help you?", elem_id="warning", elem_classes="feedback")
     clear = gr.Button("Clear")
@@ -147,7 +151,8 @@ with gr.Blocks(css=css) as demo:
         chat_history.append((query, result["answer"]))
         print("Updated chat history:", chat_history)
 
-        return gr.update(value=""), chat_history
+        # Return a new Textbox object instead of using update
+        return gr.Textbox(value=""), chat_history
 
 
     msg.submit(user, [msg, chatbot], [msg, chatbot], queue=False)
