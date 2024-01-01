@@ -50,7 +50,7 @@ import time
 # seafoam = Seafoam()
 
 import os
-os.environ["OPENAI_API_KEY"] = 'XXXXXX'
+os.environ["OPENAI_API_KEY"] = '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'
 
 from langchain.chat_models import ChatOpenAI
 llm = ChatOpenAI(temperature=0,model_name="gpt-4")
