@@ -58,8 +58,10 @@ llm = ChatOpenAI(temperature=0,model_name="gpt-4")
 from langchain.document_loaders import DirectoryLoader
 from langchain.document_loaders.csv_loader import CSVLoader
 
+# Directory is stored in the root folder of the EC2 instance
 reports_dir = '/root/WashU-Chat-Buddy/Reports'
 
+#Loads PDF, TXT, and CVS files from the reports folder of the directory
 pdf_loader = DirectoryLoader(reports_dir, glob="**/*.pdf")
 txt_loader = DirectoryLoader(reports_dir, glob="**/*.txt")
 csv_loader = CSVLoader(
@@ -86,12 +88,18 @@ for loader in loaders:
 
 #print(f"Total number of documents: {len(documents)}")
 
+# object used to split the text of each document into chunks of a specified size. documents
+# is then updated to contain these chunks instead of the original documents
 text_splitter = CharacterTextSplitter(chunk_size=2000, chunk_overlap=200)
 documents = text_splitter.split_documents(documents)
 
+# object is an instance of the OpenAIEmbeddings class, which creates embeddings for the
+# text chunks
 embeddings = OpenAIEmbeddings()
 vectorstore = Chroma.from_documents(documents, embeddings)
 
+# conversational retrevial chain that uses a language model (llm) and the vectorstore as a
+# retriever. Returns source documents along with the answers
 qa = ConversationalRetrievalChain.from_llm(llm, vectorstore.as_retriever(), return_source_documents=True)
 
 css = """
@@ -125,10 +133,14 @@ css = """
     z-index: -1;
 }
 """
-
+# 'demo' object is a container for the chatbot interface, which includes a textbox for user
+# input, clear chat history button, and the chatbot itself
 demo = gr.Blocks(css=css)
 
-# Define chat interface
+# Script to create a chatbot interface
+# 'user' function is triggered when the user submits a query. Then takes the users query and
+# and the chat history as inputs, sends these to a question-answering (QA) model, appends the
+# query and response to the chat history
 with demo:
     chatbot = gr.Chatbot(elem_id="warning", elem_classes="feedback")
     msg = gr.Textbox(label="How may I help you?", elem_id="warning", elem_classes="feedback")
