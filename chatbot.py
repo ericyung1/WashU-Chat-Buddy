@@ -50,7 +50,7 @@ import time
 # seafoam = Seafoam()
 
 import os
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'XXXXXX'
 
 from langchain.chat_models import ChatOpenAI
 llm = ChatOpenAI(temperature=0,model_name="gpt-4")
@@ -58,12 +58,12 @@ llm = ChatOpenAI(temperature=0,model_name="gpt-4")
 from langchain.document_loaders import DirectoryLoader
 from langchain.document_loaders.csv_loader import CSVLoader
 
-reports_dir = 'C:\\Users\\ericy\\Desktop\\WashUChatBuddy\\WashU-Chat-Buddy\\Reports'
+reports_dir = '/root/WashU-Chat-Buddy/Reports'
 
 pdf_loader = DirectoryLoader(reports_dir, glob="**/*.pdf")
 txt_loader = DirectoryLoader(reports_dir, glob="**/*.txt")
 csv_loader = CSVLoader(
-    file_path=reports_dir + "\\student_events.csv",
+    file_path=reports_dir + "/student_events.csv",
     csv_args={
         "delimiter": ",",
         "quotechar": '"',
@@ -159,4 +159,4 @@ with demo:
     clear.click(lambda: None, None, chatbot, queue=False)
 
 if __name__ == "__main__":
-    demo.launch(debug=True, share=True)
+    demo.launch(debug=True, share=True, root_path="/")
