@@ -1,20 +1,26 @@
 # WashU Chat Buddy
 
-How to run on your local environment
-1) cd into project path
-2) Change the Openai api key
-3) run gradio chatbot.py
-4) Go to port http://127.0.0.1:7860/
+## Overview
+WashU Chat Buddy is a chatbot designed to assist Washington University (WashU) students with class scheduling. It's trained on a dataset that includes WUGO events, course listings, and more. You can access it at www.washubuddy.com.
 
-Purpose:
-Create a chatbot catered to help WashU students schedule classes. Trained with data that includes WUGO events, course listings, etc.
+## Repository Structure
 
-Reports Folder:<br>
-All forms of data used to load into Langchain DocumentLoader
+- **Reports Folder**: Contains all forms of data used to load into the Langchain DocumentLoader.
 
-Webscraper:<br>
-1) Source Code for pdf to txt converter
-2) Source Code for student events
-3) Source Code for scraping course descriptions from WUSTL course listing
+- **Webscraper**: This directory includes the source code for various scraping tasks:
+    1. PDF to text converter
+    2. Student events scraper
+    3. Course descriptions scraper from WUSTL course listing
 
-chatbot.py - main Gradio application used to create chatbot, load frontend/backend, and create local host
+- **chatbot.py**: This is the main Gradio application used to create the chatbot. It handles the loading of the frontend and backend, and creates a local host.
+
+## Deprecated Instructions
+
+### Running the Chatbot Locally
+
+If you want to run the chatbot on your local environment, follow these steps:
+
+1. Navigate to the project path with `cd [project-path]`.
+2. Replace the placeholder in the code with your OpenAI API key.
+3. Run the Gradio chatbot with `python chatbot.py`.
+4. Access the chatbot at http://127.0.0.1:7860/.
